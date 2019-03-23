@@ -9,9 +9,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: 700;
     letter-spacing: 0;
-    line-height: 1.6em
+    line-height: 1.6em;
+    font-weight: bold;
 }
 
 h1 {
@@ -22,6 +22,14 @@ h1 {
 }
 h3{
     font-size: 14px;
+}
+h2{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h6{
+    font-size: 11px;
+    font-weight: bold;
 }
 a{
     color: #000;
@@ -103,7 +111,9 @@ input:hover {
 .card:hover .overlay {
     opacity: .8
 }
-
+.text-centr{
+    text-align: center;
+}
 /* .fixed {
     position: fixed;
     top: 0;
@@ -250,28 +260,65 @@ input:hover {
 .shop{
     padding-top: 38px; 
 }
+aside{
+    margin-right: 50px;
+}
 .shop-menu{
 padding-bottom: 30px;
 }
-.shop-menu__link{
+.shop-menu__link, .shop-help__link{
     font-size: 14px;
     font-weight: bold;
     display: block;
 }
 .shop-cabinet{
+    text-align: center;
+    font-size: 12px;
+    padding: 15px 0;
     border-top: 4px solid #ffd5d5;
     border-bottom: 4px solid #ffd5d5;
 }
 .shop-cabinet p{
-    font-size: 9px;
-    text-align: center;
+    
 }
 .btn-cabinet{
-    font-size: 9px;
+    font-weight: bold;
+    padding: 8px 3px;
+    background: #ffd5d5;
+    border: none;
+    border-radius: 20px;
+}
+.registracion{
+    display: block;
+    font-weight: bold;
+    margin-top: 12px;
+}
+.shop-social{
+    text-align: center;
+    padding: 8px 0;
+    border-bottom: 4px solid #ffd5d5;
+}
+.shop-help{
+    padding: 8px 0;
+    border-bottom: 4px solid #ffd5d5;
+}
+.shop-copyrights{
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
 }
 .kard-shop{
     justify-content: space-between;
 }
+.card-news{
+    align-items: center;
+    padding: 15px 0 18px 0;
+}
+.card-news img{
+    margin-right: 16px;
+}
+
 .discounts span {
     font-size: 28px;
     text-shadow: none;
@@ -315,56 +362,6 @@ padding-bottom: 30px;
     margin-right: 15px;
     text-align: center
 }
-
-#praice_comp,
-#praice_plashet,
-#praice_tel {
-    display: none;
-    position: relative;
-    top: 100px;
-    margin-bottom: 105px
-}
-
-.praice_blokc {
-    display: block
-}
-
-.str .str_item {
-    font-size: 0;
-    line-height: 0
-}
-
-.str img {
-    opacity: 1
-}
-
-.str img:hover {
-    opacity: .8
-}
-
-.advantages {
-    background: #f5f5f5
-}
-
-.advantages__img {
-    width: 100px;
-    height: 100px
-}
-
-.advantages p {
-    font-weight: 700;
-    font-size: 14px
-}
-
-.repair h3 {
-    color: #2ebcf6;
-    font-size: 16px
-}
-
-.repair p {
-    font-size: 14px
-}
-
 .slader {
     margin-bottom: 10px
 }
@@ -416,53 +413,6 @@ padding-bottom: 30px;
     font-family: Calibri, sans-serif
 }
 
-table {
-    border-collapse: collapse;
-    font-size: 14px;
-    font-family: candarabold;
-    width: 100%
-}
-
-thead {
-    background: -webkit-linear-gradient(rgba(2, 43, 126, 1) 0, rgba(42, 138, 216, 1) 0, rgba(34, 183, 232, 1) 100%, rgba(126, 186, 232, 1) 100%, rgba(0, 0, 0, 1) 100%);
-    background: -o-linear-gradient(rgba(2, 43, 126, 1) 0, rgba(42, 138, 216, 1) 0, rgba(34, 183, 232, 1) 100%, rgba(126, 186, 232, 1) 100%, rgba(0, 0, 0, 1) 100%);
-    background: linear-gradient(rgba(2, 43, 126, 1) 0, rgba(42, 138, 216, 1) 0, rgba(34, 183, 232, 1) 100%, rgba(126, 186, 232, 1) 100%, rgba(0, 0, 0, 1) 100%);
-    color: #fff;
-    font-weight: 700;
-    font-size: 18px
-}
-
-th {
-    padding: 10px 0
-}
-
-tr th:last-child {
-    border-top-right-radius: 5px;
-    width: 100px;
-    padding: 0 10px
-}
-
-tr th:first-child {
-    border-top-left-radius: 5px;
-    text-align: left;
-    padding-left: 10px;
-    padding-top: 10px
-}
-
-tbody {
-    color: #2f2c2c;
-    font-size: 16px;
-    font-weight: 900
-}
-
-.tabl_info td {
-    padding: 10px 5px;
-    border-bottom: 2px solid #d8cfcf
-}
-
-.tabl_info td:last-child {
-    text-align: center
-}
 
 .border-none {
     border-bottom: none !important
@@ -566,37 +516,7 @@ footer a:hover {
     margin: 0 auto 27px
 }
 
-.img_1 {
-    background: url(../img/img_blog/1.png) no-repeat center center
-}
 
-.img_2 {
-    background: url(../img/img_blog/2.png) no-repeat center center
-}
-
-.img_3 {
-    background: url(../img/img_blog/3.png) no-repeat center center
-}
-
-.img_4 {
-    background: url(../img/img_blog/4.png) no-repeat center center
-}
-
-.img_5 {
-    background: url(../img/img_blog/5.png) no-repeat center center
-}
-
-.img_6 {
-    background: url(../img/img_blog/6.png) no-repeat center center
-}
-
-.img_7 {
-    background: url(../img/img_blog/7.png) no-repeat center center
-}
-
-.img_8 {
-    background: url(../img/img_blog/8.png) no-repeat center center
-}
 
 .modal-blog {
     font-size: 16px
