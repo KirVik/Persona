@@ -167,10 +167,25 @@ aside{
 .aside-menu{
 padding-bottom: 30px;
 }
-.aside-menu__link, .shop-help__link{
-    font-size: 14px;
+.aside-menu__link, .aside-help__link{
+    font-size: 16px;
     font-weight: bold;
     display: block;
+    position: relative;
+}
+/* .aside-menu__link{
+    position: relative;
+} */
+.aside-menu__link::after, .aside-help__link::after{
+    content: "";
+    background: url("../img/arrow.png") no-repeat center center;
+    display: inline-block;
+    width: 4px;
+    height: 8px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+
 }
 .aside-cabinet{
     text-align: center;
@@ -188,6 +203,8 @@ padding-bottom: 30px;
     background: #ffd5d5;
     border: none;
     border-radius: 20px;
+    width: 75%;
+    margin: 0 auto;
 }
 .registracion{
     display: block;
@@ -202,6 +219,7 @@ padding-bottom: 30px;
 .aside-help{
     padding: 8px 0;
     border-bottom: 4px solid #ffd5d5;
+    
 }
 .aside-copyrights{
     padding: 8px 0;
