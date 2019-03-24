@@ -176,7 +176,7 @@ padding-bottom: 30px;
 /* .aside-menu__link{
     position: relative;
 } */
-.aside-menu__link::after, .aside-help__link::after{
+.aside-menu__link::after{
     content: "";
     background: url("../img/arrow.png") no-repeat center center;
     display: inline-block;
