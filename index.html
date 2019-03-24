@@ -29,31 +29,31 @@
             <link rel="stylesheet" href="css/style.css">
         </head>
         <body>
-            <header class="header fixed" id=header>
-                
-                    <div class="container-fluid">
-                        <div class=row>
-                            <div class="col-1 col-sm-1 d-md-none m-auto">
-                                <button class=menu-open>
-                                    <i class="fas fa-bars"></i>
-                                </button>
-                            </div>
-                            <div class="col-lg-3 col-md-3 col-6 m-auto">
-                                <a href=index.html class="home logo">
-                                    <img src=img/logo.png class="logo" alt="logo Persona">
-                                </a>
-                            </div>
-                            <div class="col-lg-5 col-md-5 m-auto d-none d-md-block">
-                                <ul class="top-menu d-flex">
-                                    <li class=top-menu__item>
-                                        <a href=index.html class=home>
-                                            Главная
-                                        </a>
-                                    </li>
-                                    <li class="top-menu__item cena">
-                                        <a href=#>
-                                            О нас
-                                        </a>
+            <header class="header" id=header>
+                <div class="container-fluid">
+                    <div class=row>
+                        <div class="col-1 col-sm-1 d-md-none m-auto">
+                            <button class=menu-open>
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-6">
+                            <a href=index.html class="home logo">
+                                <img src=img/logo.png class="logo" alt="logo Persona">
+                            </a>
+                        </div>
+                        <div class="col-lg-5 col-md-5 m-auto d-none d-md-block">
+                            <nav>
+                                <ul class="menu d-flex">
+                                <li class="menu__item">
+                                   <a href="index.html">
+                                        Главная
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        О нас
+                                    </a>
                                         <!-- <ul class=top-menu__list>
                                         <li class=top-menu__list_item>
                                             <a href=# class="cena1 tab_1">
@@ -88,24 +88,25 @@
                                             </a>
                                         </li>
                                         </ul> -->
-                                    </li>
-                                    <li class=top-menu__item>
-                                        <a href=# class=zakaz>Галерея</a>
-                                    </li>
-                                    <li class=top-menu__item>
-                                        <a href=blog.html class=link_blog>
-                                            Школа
-                                        </a>
-                                    </li>
-                                    <li class=top-menu__item>
-                                        <a href=#maps id=contacts>
-                                            Контакты
-                                        </a>
-                                    </li>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>Галерея</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        Школа
+                                    </a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href=#>
+                                        Контакты
+                                    </a>
+                                </li>
                                 </ul>
+                            </nav>
                             </div>
                             <!-- Меню гамбургер -->
-                            <div class="d-none menu-collapse">
+                            <!-- <div class="d-none menu-collapse">
                                 <ul class=menu>
                                     <li class=menu__item>
                                         <a href=# class="header-menu__text tab_1">
@@ -144,257 +145,239 @@
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <!-- Меню гамбургер END-->
-                            <div class="col-lg-2 col-md-3 col-6 m-auto">
-                                <div class="heder_icon d-flex">
-                                        <a href="#" id="comparison" class="comparison"> <img src=img/comparison.png class=img-adaptiv alt="Comparison Persona"></a>
-                                        <a href="#" id="preferences" class="preferences"> <img src=img/preferences.png class=img-adaptiv alt="Comparison Persona"></a>
-                                        <a href="#" id="search" class="search"> <img src=img/search.png class=img-adaptiv alt="Comparison Persona"></a>
-                                        <a href="#" id="authorization" class="authorization"> <img src=img/authorization.png class=img-adaptiv alt="Comparison Persona"></a>
-                                </div>
+                        <div class="col-lg-2 col-md-3 col-6 m-auto">
+                            <div class="heder_icon d-flex">
+                                <a href="#" id="comparison" class="comparison"> <img src=img/comparison.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="preferences" class="preferences"> <img src=img/preferences.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="search" class="search"> <img src=img/search.png class=img-adaptiv alt="Comparison Persona"></a>
+                                <a href="#" id="authorization" class="authorization"> <img src=img/authorization.png class=img-adaptiv alt="Comparison Persona"></a>
                             </div>
                         </div>
                     </div>
-                
+                </div>
             </header>
             <main id=main role=main>
-                <div class=c1>
-                    <section class="shop" id="shop">
-                        <div class=container-fluid>
-                            <div class=row>
-                                <div class="col-lg-2">
+                <section class="shop" id="shop">
+                    <div class=container-fluid>
+                        <div class="row m-0">
+                            <div class="col-lg-3">
                                     <aside class="info-right" id="info-right">
-                                        <div class="shop-menu" id="shop-menu">
-                                            <a href="#" class="shop-menu__link">Товары для маникюра</a>
-                                            <a href="#" class="shop-menu__link">Всё для Вензеля</a>
-                                            <a href="#" class="shop-menu__link">Всё для Эрографии</a>
+                                        <div class="aside-menu" id="aside-menu">
+                                            <a href="#" class="aside-menu__link">Товары для маникюра</a>
+                                            <a href="#" class="aside-menu__link">Всё для Вензеля</a>
+                                            <a href="#" class="aside-menu__link">Всё для Эрографии</a>
                                         </div>
-                                        <div class="shop-cabinet" id="shop-cabinet">
+                                        <div class="aside-cabinet" id="aside-cabinet">
                                             <h3>Добро пожаловать!</h3>
                                             <p>Войдите, чтобы получать рекомендации, персональные бонусы и скидки</p>
                                             <button class="btn-block btn-cabinet">Войдите в личный кабинет</button>
                                             <a href="#" class="registracion">Зарегистрироваться</a>
                                         </div>
-                                        <div class="shop-social">
+                                        <div class="aside-social">
                                             <h3>Мы в социальных сетях</h3>
-                                            <div class="shop-social__link">
-                                                <a href="#" class="shop-social__icon"><img src="img/facebook.png" alt="facebook"></a>
-                                                <a href="#" class="shop-social__icon"><img src="img/instagram.png" alt="instagram"></a>
-                                                <a href="#" class="shop-social__icon"><img src="img/telegram.png" alt="telegram"></a>
-                                                <a href="#" class="shop-social__icon"><img src="img/twitter.png" alt="twitter"></a>
-                                                <a href="#" class="shop-social__icon"><img src="img/vk.png" alt="vk"></a>
+                                            <div class="aside-social__link">
+                                                <a href="#" class="aside-social__icon"><img src="img/facebook.png" alt="facebook"></a>
+                                                <a href="#" class="aside-social__icon"><img src="img/instagram.png" alt="instagram"></a>
+                                                <a href="#" class="aside-social__icon"><img src="img/telegram.png" alt="telegram"></a>
+                                                <a href="#" class="aside-social__icon"><img src="img/twitter.png" alt="twitter"></a>
+                                                <a href="#" class="aside-social__icon"><img src="img/vk.png" alt="vk"></a>
                                             </div>
                                         </div>
-                                        <div class="shop-help">
+                                        <div class="aside-help">
                                             <h6>Помощь</h6>
-                                            <a href="#" class="shop-help__link">Доставка и оплата</a>
-                                            <a href="#" class="shop-help__link">Гарантия</a>
-                                            <a href="#" class="shop-help__link">Возврат товара</a>
-                                            <a href="#" class="shop-help__link">Вопросы и ответы</a>
+                                            <a href="#" class="aside-help__link">Доставка и оплата</a>
+                                            <a href="#" class="aside-help__link">Гарантия</a>
+                                            <a href="#" class="aside-help__link">Возврат товара</a>
+                                            <a href="#" class="aside-help__link">Вопросы и ответы</a>
                                         </div>
-                                        <div class="shop-copyrights">
+                                        <div class="aside-copyrights">
                                             <p>&copyИнтернет-магазин<br>«Neil Persona™» 2019</p>
                                         </div>
                                     </aside>
-                                </div>
-                                
-                                <div class="col-10 p-0">
-                                        <div class="slider">
-                                            <div class="slider_blok">
-                                                <img src="img/sliser-foto_1.jpg" alt="Благоустройство терретории" class="img-adaptiv">
-                                                <!-- <h2 class="slider_title">Благоустройство <br>терретории.</h2> -->
-                                            </div>
-                                            <div class="slider_blok">
-                                                <img src="img/sliser-foto_1.jpg" alt="Ландшафтный дизайн" class="img-adaptiv">
-                                                <!-- <h2 class="slider_title slider_title__two">Ландшафтный дизайн<span>контроль на каждом
-                                                        этапе.</span></h2> -->
-                                           </div>
+                            </div>
+                            <div class="col-9 p-0">
+                                <div class="slader">
+                                        <div class="slader_blok">
+                                            <img src="img/sliser-foto_1.jpg" alt="Благоустройство терретории" class="img-adaptiv">
                                         </div>
-                                        <div class="products">
-                                            <div class="row">
-                                            <div class="col-lg-10">
-                                                    <div class="card-news d-flex">
+                                        <div class="slader_blok">
+                                            <img src="img/sliser-foto_1.jpg" alt="Ландшафтный дизайн" class="img-adaptiv">
+                                        </div>
+                                </div>
+                                <div class="filter">Сдесь фильтер</div>
+                                <div class="products">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="products-news d-flex">
+                                                    <img src="img/New.png" alt="icon-new">
+                                                    <h2>Новинки</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between mb-3">
+                                            <div class="col-lg-2 col-md-6 text-center p-0">
+                                                <a href="#" class="products-card">
+                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                    <div class="products-card_cena">270грн</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6 text-center p-0">
+                                                <a href="#" class="products-card">
+                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                    <div class="products-card_cena">270грн</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6 text-center p-0">
+                                                <a href="#" class="products-card">
+                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                    <div class="products-card_cena">270грн</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6 text-center p-0">
+                                                <a href="#" class="products-card">
+                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                    <div class="products-card_cena">270грн</div>
+                                                </a>
+                                            </div>
+                                            <div class="col-lg-2 col-md-6 text-center p-0">
+                                                <a href="#" class="products-card">
+                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                    <div class="products-card_cena">270грн</div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="row justify-content-between">
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="products-news d-flex">
                                                         <img src="img/New.png" alt="icon-new">
                                                         <h2>Новинки</h2>
                                                     </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                             <div class="col-lg-2 col-md-6 text-centr">
-                                            <div class="works__project works__project_two">
-                                                <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                <div class="cena">270грн</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 text-centr">
-                                                <div class="works__project works__project_two">
-                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                    <div class="cena">270грн</div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-2 col-md-6 text-centr">
-                                                    <div class="works__project works__project_two">
+                                            <div class="row justify-content-between mb-3">
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
                                                         <img src="img/img-card.png" alt="tovar" class="works__img">
                                                         <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                        <div class="cena">270грн</div>
-                                                    </div>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
                                                 </div>
-                                                <div class="col-lg-2 col-md-6 text-centr">
-                                                        <div class="works__project works__project_two">
-                                                            <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                            <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                            <div class="cena">270грн</div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-lg-2 col-md-6 text-centr">
-                                                            <div class="works__project works__project_two">
-                                                                <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                                <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                                <div class="cena">270грн</div>
-                                                            </div>
-                                                        </div>
-                                                
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-lg-2 col-md-6 text-centr">
-                                               <div class="works__project works__project_two">
-                                                   <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                   <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                   <div class="cena">270грн</div>
-                                               </div>
-                                           </div>
-                                           <div class="col-lg-2 col-md-6 text-centr">
-                                                   <div class="works__project works__project_two">
-                                                       <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                       <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                       <div class="cena">270грн</div>
-                                                   </div>
-                                               </div>
-                                               <div class="col-lg-2 col-md-6 text-centr">
-                                                       <div class="works__project works__project_two">
-                                                           <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                           <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                           <div class="cena">270грн</div>
-                                                       </div>
-                                                   </div>
-                                                   <div class="col-lg-2 col-md-6 text-centr">
-                                                           <div class="works__project works__project_two">
-                                                               <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                               <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                               <div class="cena">270грн</div>
-                                                           </div>
-                                                       </div>
-                                                       <div class="col-lg-2 col-md-6 text-centr">
-                                                               <div class="works__project works__project_two">
-                                                                   <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                                   <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                                   <div class="cena">270грн</div>
-                                                               </div>
-                                                           </div>
-                                                   </div>
-                                        </div>
-                                        
-                                  
-                                    <div class="row">
-                                            <div class="col-lg-10">
-                                                    <div class="card-news d-flex">
-                                                        <img src="img/icon-spros.png" alt="icon-new">
-                                                        <h2>Сейчас пользуются спросом</h2>
-                                                    </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                             <div class="col-lg-2 col-md-6 text-centr">
-                                            <div class="works__project works__project_two">
-                                                <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                <div class="cena">270грн</div>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-2 col-md-6 text-centr">
-                                                <div class="works__project works__project_two">
-                                                    <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                    <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                    <div class="cena">270грн</div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-6 text-centr">
-                                                    <div class="works__project works__project_two">
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
                                                         <img src="img/img-card.png" alt="tovar" class="works__img">
                                                         <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                        <div class="cena">270грн</div>
-                                                    </div>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
                                                 </div>
-                                                <div class="col-lg-2 col-md-6 text-centr">
-                                                        <div class="works__project works__project_two">
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                                <div class="col-lg-2 col-md-6 text-center p-0">
+                                                    <a href="#" class="products-card">
+                                                        <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                        <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                        <div class="products-card_cena">270грн</div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="row justify-content-between">
+                                                    <div class="col-lg-2 col-md-6 text-center p-0">
+                                                        <a href="#" class="products-card">
                                                             <img src="img/img-card.png" alt="tovar" class="works__img">
                                                             <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                            <div class="cena">270грн</div>
-                                                        </div>
+                                                            <div class="products-card_cena">270грн</div>
+                                                        </a>
                                                     </div>
-                                                    <div class="col-lg-2 col-md-6 text-centr">
-                                                            <div class="works__project works__project_two">
-                                                                <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                                <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                                <div class="cena">270грн</div>
-                                                            </div>
-                                                        </div>
-                                                
+                                                    <div class="col-lg-2 col-md-6 text-center p-0">
+                                                        <a href="#" class="products-card">
+                                                            <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                            <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                            <div class="products-card_cena">270грн</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6 text-center p-0">
+                                                        <a href="#" class="products-card">
+                                                            <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                            <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                            <div class="products-card_cena">270грн</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6 text-center p-0">
+                                                        <a href="#" class="products-card">
+                                                            <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                            <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                            <div class="products-card_cena">270грн</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="col-lg-2 col-md-6 text-center p-0">
+                                                        <a href="#" class="products-card">
+                                                            <img src="img/img-card.png" alt="tovar" class="works__img">
+                                                            <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
+                                                            <div class="products-card_cena">270грн</div>
+                                                        </a>
+                                                    </div>
                                             </div>
-                                        </div>
-                                        <div class="row">
-                                                <div class="col-lg-2 col-md-6 text-centr">
-                                               <div class="works__project works__project_two">
-                                                   <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                   <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                   <div class="cena">270грн</div>
-                                               </div>
-                                           </div>
-                                           <div class="col-lg-2 col-md-6 text-centr">
-                                                   <div class="works__project works__project_two">
-                                                       <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                       <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                       <div class="cena">270грн</div>
-                                                   </div>
-                                               </div>
-                                               <div class="col-lg-2 col-md-6 text-centr">
-                                                       <div class="works__project works__project_two">
-                                                           <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                           <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                           <div class="cena">270грн</div>
-                                                       </div>
-                                                   </div>
-                                                   <div class="col-lg-2 col-md-6 text-centr">
-                                                           <div class="works__project works__project_two">
-                                                               <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                               <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                               <div class="cena">270грн</div>
-                                                           </div>
-                                                       </div>
-                                                       <div class="col-lg-2 col-md-6 text-centr">
-                                                               <div class="works__project works__project_two">
-                                                                   <img src="img/img-card.png" alt="tovar" class="works__img">
-                                                                   <h3>Комплект Тренировочных <br>Карт "Вензеля"</h3>
-                                                                   <div class="cena">270грн</div>
-                                                               </div>
-                                                           </div>
-                                                   
-                                           </div>
-                                        </div>
-                                        
-                                    </div>
-                                    
-                    
-                </div>
-                                
+                                       
+                                </div>  
                             </div>
                         </div>
-                    </section>
-                    
-                </div>
+                    </div>
+                </section>
             </main>
             
             <footer class=footer id=footer>
