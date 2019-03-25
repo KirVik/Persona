@@ -121,7 +121,14 @@ a, button, button:active, button:focus, button:hover, input, input:active, input
 .heder_icon a:last-child{
     margin-right: 0;
 }
-
+.menu-open {
+    background: 0;
+    border: 0;
+    /* font-size: 25px; */
+    cursor: pointer;
+    margin-top: 100%;
+    
+}
 /* .header-menu {
     font-size: 14px
 }
@@ -278,6 +285,7 @@ padding-bottom: 30px;
 }
 .products-card img{
     margin-bottom: 20px;
+    padding: 0 5px;
 }
 .products-card__cena{
     font-size: 14px;
@@ -301,4 +309,25 @@ padding-bottom: 30px;
 
 @media screen and (max-width:576px) {
     
+    .container-fluid_sm{
+        padding: 0;
+    }
+    .comparison, .preferences, .authorization{
+        display: none!important;
+    }
+    .header{
+        padding:  0;
+    }
+    .logo{
+        margin-left: 10px;
+    }
+    .shop{
+        padding-top: 0;;
+    }
+    .aside-copyrights__sm{
+        display: block!important;
+        border-top: 4px solid #ffd5d5;
+        margin-top: 15px;
+        text-align: center;
+    }
 }
