@@ -269,7 +269,11 @@ padding-bottom: 30px;
 }
 
 /* products-card*/
-
+.products-card{
+    display: block;
+    padding: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.45);
+}
 .products-card img{
     margin-bottom: 20px;
 }
