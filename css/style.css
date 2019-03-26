@@ -126,7 +126,7 @@ a, button, button:active, button:focus, button:hover, input, input:active, input
     border: 0;
     /* font-size: 25px; */
     cursor: pointer;
-    margin-top: 100%;
+    /* margin-top: 100%; */
     
 }
 /* .header-menu {
@@ -319,8 +319,8 @@ padding-bottom: 30px;
     .header{
         padding:  0;
     }
-    .logo{
-        margin-left: 10px;
+    /* .logo{
+        margin-left: 10px; */
     }
     .shop{
         padding-top: 0;;
