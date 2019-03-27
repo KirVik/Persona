@@ -23,4 +23,25 @@ $(function (){
 
         };
     });
+    //форма
+    $('.zakaz').click(function (e) {
+        e.preventDefault();
+        $('#formModal').arcticmodal();
+    });
+    
+});
+
+$(document).ready(function() {
+    $('[data-submit]').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent('form').submit();
+    })
+    $.validator.addMethod(
+        "regex",
+        function(value, element, regexp) {
+            var re = new RegExp(regexp);
+            return this.optional(element) || re.test(value);
+        },
+        "Please check your input."
+    );
 })
