@@ -28,7 +28,7 @@ $(function (){
     });
     });
     });
-    $('.manicure-products__link').click(function () {
+    $('.manicure-products__link, .personal-area-aside__link_catalog').click(function () {
         
             $('#catalog-product').arcticmodal();
     });
