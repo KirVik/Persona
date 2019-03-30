@@ -22,26 +22,52 @@ $(function (){
             $('.menu-collapse').addClass('d-none');
 
         };
+        $(document).ready(function() {   
+            $('.manicure-products__link').click(function(e) {
+            e.preventDefault();
     });
-    //форма
-    $('.zakaz').click(function (e) {
-        e.preventDefault();
-        $('#formModal').arcticmodal();
     });
-    
+    });
+    $('.manicure-products__link').click(function () {
+        
+            $('#catalog-product').arcticmodal();
+    });
+    $('.authorizaciy').click(function () {
+        
+        $('#authorization').arcticmodal();
 });
+    
+        // $.arcticmodal({
+        //     type: 'ajax',
+        //     url: 'ajax/Manicure Products.html',
+        //     afterLoading: function(data, el) {
+        //         alert('afterLoading');
+        //     },
+        //     afterLoadingOnShow: function(data, el) {
+        //         alert('afterLoadingOnShow');
+        //     }
+        // });
+  
+    //форма
+//     $('.zakaz').click(function (e) {
+//         e.preventDefault();
+//         $('#formModal').arcticmodal();
+//     });
+    
+// });
 
-$(document).ready(function() {
-    $('[data-submit]').on('click', function(e) {
-        e.preventDefault();
-        $(this).parent('form').submit();
-    })
-    $.validator.addMethod(
-        "regex",
-        function(value, element, regexp) {
-            var re = new RegExp(regexp);
-            return this.optional(element) || re.test(value);
-        },
-        "Please check your input."
-    );
-})
+// $(document).ready(function() {
+//     $('[data-submit]').on('click', function(e) {
+//         e.preventDefault();
+//         $(this).parent('form').submit();
+//     })
+//     $.validator.addMethod(
+//         "regex",
+//         function(value, element, regexp) {
+//             var re = new RegExp(regexp);
+//             return this.optional(element) || re.test(value);
+//         },
+//         "Please check your input."
+//     );
+
+});

@@ -302,11 +302,11 @@ padding-bottom: 30px;
 }
 .box-modal_close {
     position: absolute;
-    right: 10px;
-    top: 6px;
-    font-size: 11px;
+    right: 20px;
+    top: 0px;
+    font-size: 20px;
     line-height: 15px;
-    color: #999;
+    color: #000;
     cursor: pointer;
 }
 .form-group{
