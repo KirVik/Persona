@@ -26,48 +26,24 @@ $(function (){
             $('.manicure-products__link').click(function(e) {
             e.preventDefault();
     });
+        });
     });
-    });
+    // Модальные окна (каталога товаров)
     $('.manicure-products__link, .personal-area-aside__link_catalog').click(function () {
-        
-            $('#catalog-product').arcticmodal();
+        $('#catalog-product').arcticmodal();
     });
+    // Модальные окна (каталога товаров) END
+
+    // Модальные окна (Авторизация)
     $('.authorizaciy').click(function () {
-        
         $('#authorization').arcticmodal();
-});
-    
-        // $.arcticmodal({
-        //     type: 'ajax',
-        //     url: 'ajax/Manicure Products.html',
-        //     afterLoading: function(data, el) {
-        //         alert('afterLoading');
-        //     },
-        //     afterLoadingOnShow: function(data, el) {
-        //         alert('afterLoadingOnShow');
-        //     }
-        // });
-  
-    //форма
-//     $('.zakaz').click(function (e) {
-//         e.preventDefault();
-//         $('#formModal').arcticmodal();
-//     });
-    
-// });
+    });
+    // Модальные окна (Авторизация) END
 
-// $(document).ready(function() {
-//     $('[data-submit]').on('click', function(e) {
-//         e.preventDefault();
-//         $(this).parent('form').submit();
-//     })
-//     $.validator.addMethod(
-//         "regex",
-//         function(value, element, regexp) {
-//             var re = new RegExp(regexp);
-//             return this.optional(element) || re.test(value);
-//         },
-//         "Please check your input."
-//     );
-
+    // открытие личного кабинета
+    $('.personal-area-aside__link_area').click(function () {
+        $('.displey_none').toggleClass('displey_bl');
+    });
+// открытие личного кабинета END
+    
 });
