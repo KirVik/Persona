@@ -9,7 +9,7 @@ label {
 }
 input[type="text"]{
     border-width: 0;
-    width: 100%;
+    width: 30%;
     border-radius: 20px;
     border: 1px solid #000;
     margin-right: 5px;
@@ -32,7 +32,7 @@ input[type="text"]{
 /* Ползунок */
   .slider{
     width: 80%;
-    height:5px;
+    height:4px;
     background:#b6b6b6;
     position:relative;
     margin-top:10px;
@@ -56,34 +56,34 @@ input[type="text"]{
   .slider .bar .lp,.slider .bar .rp{
     cursor:pointer;
     background:#ffd4d3;
-    width:30px;
-    height: 30px;
+    width:15px;
+    height: 15px;
     border-radius:100%;
     position:absolute;
 }
   .slider .bar .lp{
     left:0px;
-    top:-14px;
+    top:-6px;
   }
   .slider .bar .rp{
     left:100%;
-    top:-14px;
+    top:-6px;
   }
 /* ползунок END */
 
 /* booling */
 
   .product-booling__list{
-    width: 60px;
-    height: 60px;
+    width: 35px;
+    height: 35px;
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 10px;
     margin-right: 10px;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: bold;
-    line-height: 56px;
+    line-height: 36px;
   }
   .product-booling__list:hover, .product-booling__list:active, .product-booling__list:focus{
     background:  #ffd4d3; 
