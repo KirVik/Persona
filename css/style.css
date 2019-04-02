@@ -50,7 +50,7 @@ a, button, button:active, button:focus, button:hover, input, input:active, input
     outline: 0
 }
 .img-adaptiv {
-    width: 100%;
+    /* width: 100%; */
     max-width: 100%;
     display: block;
     color: #fff
