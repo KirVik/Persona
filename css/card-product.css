@@ -7,24 +7,31 @@ label {
     align-items: center;
 
 }
+input[type="checkbox"]{
+  border-radius: 20px;
+  border: 1px solid #000;
+ 
+}
 input[type="text"]{
     border-width: 0;
-    width: 30%;
+    width: 20%;
+    height: 30%;
     border-radius: 20px;
     border: 1px solid #000;
-    margin-right: 5px;
+   
   }
+  
   .currency{
-      padding-top: 15px;
+      padding-left: 15px;
       margin: 0;
   }
   .btn-filter{
       background: none;
     border: 1px solid;
     border-radius: 10px;
+    font-size: 12px;
     width: 12%;
     height: 10%;
-    margin-top: 10px;
     margin-left: 10px;
 }
 /* фильтер END */
