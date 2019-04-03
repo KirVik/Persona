@@ -130,7 +130,9 @@ aside{
     margin-right: 20px;
 }
 .aside-menu{
-padding-bottom: 30px;
+padding-bottom: 15px;
+margin-bottom: 15px;
+border-bottom: 7px solid #ffd5d5;
 }
 .aside-menu__link, .aside-help__link{
     font-size: 16px;
