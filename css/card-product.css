@@ -42,7 +42,7 @@ input[type="text"]{
     height:4px;
     background:#b6b6b6;
     position:relative;
-    margin-top:10px;
+    margin-top:25px;
     margin-left:20px;
   }
   .slider .bar{
@@ -63,18 +63,18 @@ input[type="text"]{
   .slider .bar .lp,.slider .bar .rp{
     cursor:pointer;
     background:#ffd4d3;
-    width:15px;
-    height: 15px;
+    width:25px;
+    height: 25px;
     border-radius:100%;
     position:absolute;
 }
   .slider .bar .lp{
     left:0px;
-    top:-6px;
+    top:-10px;
   }
   .slider .bar .rp{
     left:100%;
-    top:-6px;
+    top: -10px;
   }
 /* ползунок END */
 
