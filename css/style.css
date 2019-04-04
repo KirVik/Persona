@@ -230,17 +230,16 @@ border-bottom: 7px solid #ffd5d5;
     margin-top: 10px;
 }
 .comparison-yellow img, .preferences-red img, .basket-green img{
+    width: 50%;
     margin-bottom: 0px;
     padding: 0;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 .comparison-yellow, .preferences-red, .basket-green{
     display: block;
-    position: relative;
+    
 }
-.btn__basket-green .basket-green:hover{
-display: block;
-}
+
 .btn__basket-green{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.40);
     overflow: hidden;
