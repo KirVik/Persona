@@ -236,8 +236,56 @@ border-bottom: 7px solid #ffd5d5;
 }
 .comparison-yellow, .preferences-red, .basket-green{
     display: block;
-    
-} 
+    position: relative;
+}
+.btn__basket-green .basket-green:hover{
+display: block;
+}
+.btn__basket-green{
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.40);
+    overflow: hidden;
+    text-align: center;
+    background: green;
+    border: 1px solid green;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 3px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn__basket-green:hover {
+    box-shadow: 6px 6px 5px rgba(0, 0, 0, 0.40);
+    padding: 4px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/* rating */
+
+.rating_block {
+    /* width: 125px;
+    height: 25px; */
+  }
+  .rating_block input[type="radio"] {
+    display: none;
+  }
+  .label_rating {
+    float: right;
+    display: block;
+    width: 25px;
+    height: 20px;
+    background: url(../img/stars.png) no-repeat 50% 0;
+    cursor: pointer;
+  }
+  /*Пишем правила смены положения background-а*/
+  .rating_block .label_rating:hover, /*Правило для ховера на текущий лейбл*/
+  .rating_block .label_rating:hover ~ .label_rating, /*Правило для всех следующих лейблов по DOM дереву*/
+  .rating_block input[type="radio"]:checked ~ .label_rating /*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/
+  {
+    background-position: 50% -20px;
+  }
+/* rating end */
 /* products-card END*/
 
 /* products END*/
