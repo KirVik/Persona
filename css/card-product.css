@@ -81,7 +81,7 @@ input[type="text"]{
 /* booling */
 
   .product-booling__list{
-    width: 35px;
+    width: 40px;
     height: 35px;
     background-color: #fff;
     border: 1px solid #000;
@@ -99,6 +99,9 @@ input[type="text"]{
   .product-booling__list a{
       color: #000;
   }
+  .product-booling__list a:hover{
+    color: #000;
+}
 
   /* booling END */
 
